@@ -1,0 +1,73 @@
+<ion-header class="fundo">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    </ion-buttons>
+    <ion-title class="center"> Catálogo de filmes</ion-title>
+  </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+  <ion-card color="tertiary">
+    <ion-grid>
+      <ion-row>      
+        <ion-col>
+          <img src="../../assets/img/bronze.png" alt="">
+        </ion-col>
+        <ion-col>
+          <h1>Pacote Bronze</h1>
+          <p><ion-icon name="logo-rss"></ion-icon> Alugue até 5 filmes</p>
+          <p style="font-size: 0.8em;"><ion-icon name="checkmark" color="success"></ion-icon> Digitais que poderão ser assistidos a qualquer hora</p>
+          <ion-chip>
+            <ion-label color="light" (click)="vaiparaBronze()">Escolher filmes</ion-label>
+          </ion-chip>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+
+  <ion-card color="medium">
+    <ion-grid>
+      <ion-row>      
+        <ion-col>
+          <img src="../../assets/img/silver.png" alt="">
+        </ion-col>
+        <ion-col>
+          <h1>Pacote Prata</h1>
+          <p><ion-icon name="logo-rss"></ion-icon> Alugue até 10 filmes</p>
+          <p style="font-size: 0.8em;"><ion-icon name="checkmark" color="success"></ion-icon> Digitais que poderão ser assistidos a qualquer hora</p>
+          <p style="font-size: 0.8em;"><ion-icon name="checkmark" color="success"></ion-icon> Ganha de presente 1 poster e 1 mídia física de um filme (aleatório)</p>
+          <ion-chip>
+            <ion-label color="light" (click)="vaiparaSilver()" >Escolher filmes</ion-label>
+          </ion-chip>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+
+  <ion-card color="ouro">
+    <ion-grid>
+      <ion-row>      
+        <ion-col>
+          <img src="../../assets/img/gold.png" alt="">
+        </ion-col>
+        <ion-col>
+          <h1>Pacote Gold</h1>
+          <p><ion-icon name="logo-rss"></ion-icon> Alugue até 15 filmes</p>
+            <p style="font-size: 0.8em;"> <ion-icon name="checkmark" color="success"></ion-icon>Digitais que poderão ser assistidos a qualquer hora</p>
+            <p style="font-size: 0.8em;"> <ion-icon name="checkmark" color="success"></ion-icon>Ganha de presente 1 poster e 1 mídia física de um filme (aleatório)</p>
+            <p style="font-size: 0.8em;"> <ion-icon name="diamond" color="light"></ion-icon> Brinde surpresa</p>
+          <ion-chip>
+            <ion-label (click)="vaiparaGold()" color="light">Escolher filmes</ion-label>
+          </ion-chip>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+</ion-content>
+
+
+
+
+
+
+
